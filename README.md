@@ -7,8 +7,6 @@
 
 - 🌱 I’m currently learning **everything**
 
-- 👨‍💻 All of my projects are available at [https://github.com/DeepratanKushwaha](https://github.com/DeepratanKushwaha)
-
 - 💬 Ask me about **Python, Data Analysis, Data Visualization, Statistics, Machine Learning**
 
 - 📫 How to reach me **deepratankushwah@gmail.com**
