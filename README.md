@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Deepratan Kushwaha</h1>
+<h1 align="center">Hey... 👋, Myself Deepratan Kushwaha</h1>
 <h3 align="center">A passionate tech geek from India</h3>
 
 <p align="left"> <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fnewrobos.com%2Fuploads%2FPython-Programming-New-Robos-Coding-Course-Kids1.png&imgrefurl=https%3A%2F%2Fnewrobos.com%2Fcourse%2Fpython-advance-young-engineers&tbnid=0MHKp5fMEE2c5M&vet=10CPsBEDMouAFqFwoTCNj9iOfw8PYCFQAAAAAdAAAAABAC..i&docid=adwYmT52E8xd_M&w=2820&h=2364&itg=1&q=python%20animated%20coding%20gif&ved=0CPsBEDMouAFqFwoTCNj9iOfw8PYCFQAAAAAdAAAAABAC /> </p>
@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **everything**
 
-- 💬 Ask me about **Python, Data Analysis, Data Visualization, Statistics, Machine Learning**
+- 💬 Ask me about **Python, MySql, Flask, Data Analysis, Data Visualization, Statistics, Data Science, Machine Learning**
 
 - 📫 How to reach me **deepratankushwah@gmail.com**
 
