@@ -32,6 +32,8 @@ class Deepratan:
 ```
 
 </td>
+</tr>
+<tr>
 <td width="42%" valign="top">
 
 - 🔭 &nbsp;**Data Scientist & Corporate Trainer** with **5+ years** of Python
@@ -90,8 +92,6 @@ class Deepratan:
 <img width="80%" src="https://github-readme-activity-graph.vercel.app/graph?username=DeepratanKushwaha&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&area_color=1f6feb&hide_border=true&custom_title=Contribution%20Activity" alt="activity graph" />
 
 <br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=DeepratanKushwaha&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="trophies" />
 
 </div>
 
