@@ -1,370 +1,180 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="./support.js"></script>
-</head>
-<body>
-<x-dc>
-<helmet>
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet"/>
-  <style>
-    body { margin:0; background:#010409; }
-    * { box-sizing:border-box; }
-    @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
-    @keyframes floatIn { from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:translateY(0)} }
-    .gh-link { color:#58a6ff; text-decoration:none; }
-    .gh-link:hover { text-decoration:underline; }
-  </style>
-</helmet>
+<!--
+  ════════════════════════════════════════════════════════════════════
+  BEFORE YOU PASTE THIS INTO GITHUB:
+  1. Create a repo named EXACTLY your username (e.g. "deepratankushwaha"),
+     add this file as its README.md — it then shows on your profile.
+  2. FIND & REPLACE the placeholder handle "deepratankushwaha" with your
+     real GitHub username everywhere in this file (the stats / streak /
+     activity / trophy widgets need it to pull YOUR data).
+  3. Replace social links (LinkedIn URL) with your own.
+  All widgets are free third-party services — no setup needed.
+  ════════════════════════════════════════════════════════════════════
+-->
 
-<div style="min-height:100vh; background:radial-gradient(1200px 600px at 50% -10%, #0d1b2e 0%, #010409 60%); font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; color:#c9d1d9; padding:0 0 60px;">
+<!-- ░░░░░░░░░░░░░░░░░░░░░░  HEADER BANNER  ░░░░░░░░░░░░░░░░░░░░░░ -->
 
-  <!-- top chrome bar -->
-  <div style="position:sticky; top:0; z-index:20; display:flex; align-items:center; gap:14px; padding:12px 22px; background:#010409ee; backdrop-filter:blur(8px); border-bottom:1px solid #21262d;">
-    <div style="width:14px;height:14px;border-radius:50%;background:#58a6ff;box-shadow:0 0 12px #58a6ff;"></div>
-    <span style="font-family:'JetBrains Mono',monospace; font-size:13px; color:#8b949e;">github.com / <span style="color:#c9d1d9;">deepratankushwaha</span></span>
-    <span style="margin-left:auto; font-family:'JetBrains Mono',monospace; font-size:11px; color:#3fb950; border:1px solid #2ea04326; background:#2ea04314; padding:3px 9px; border-radius:20px;">● README.md preview</span>
-  </div>
+<a href="https://github.com/deepratankushwaha">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=200&section=header&text=Deepratan%20Kushwaha&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=Data%20Scientist%20%C2%B7%20Python%20Full-Stack%20Developer%20%C2%B7%20Corporate%20Trainer&descSize=18&descAlignY=60&descColor=c9d1d9" alt="header"/>
+</a>
 
-  <div style="max-width:940px; margin:0 auto; padding:0 22px;">
+<!-- ░░░░░░░░░░░░░░░░░░░░░░  TYPING INTRO  ░░░░░░░░░░░░░░░░░░░░░░ -->
 
-    <!-- HEADER BANNER -->
-    <div style="margin-top:26px; border-radius:14px; overflow:hidden; border:1px solid #21262d; position:relative; background:linear-gradient(120deg,#0d1117 0%,#11203a 45%,#1f6feb 110%);">
-      <div style="padding:40px 38px 44px;">
-        <div style="font-family:'JetBrains Mono',monospace; font-size:13px; color:#58a6ff; letter-spacing:2px; margin-bottom:10px;">$ ./hello --profile</div>
-        <h1 style="margin:0; font-size:46px; line-height:1.05; font-weight:800; color:#fff; letter-spacing:-1px;">Deepratan Kushwaha</h1>
-        <div style="margin-top:12px; font-size:18px; color:#c9d1d9; font-weight:500;">Data Scientist · Python Full-Stack Developer · Corporate Trainer</div>
-      </div>
-      <div style="position:absolute; right:-40px; bottom:-50px; width:240px; height:240px; border-radius:50%; background:radial-gradient(circle,#58a6ff55,transparent 70%); filter:blur(6px);"></div>
-    </div>
+<div align="center">
 
-    <!-- TYPING + BADGES -->
-    <div style="text-align:center; margin-top:26px;">
-      <div style="display:inline-flex; align-items:center; min-height:34px; font-family:'JetBrains Mono',monospace; font-size:21px; font-weight:600; color:#58a6ff;">
-        <span>{{ typed }}</span>
-        <span style="display:inline-block; width:11px; height:24px; background:#58a6ff; margin-left:3px; animation:blink 1s steps(1) infinite; vertical-align:middle;"></span>
-      </div>
-      <div style="display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-top:20px;">
-        <span style="font-family:'JetBrains Mono',monospace; font-size:12px; padding:5px 11px; border-radius:6px; background:#161b22; border:1px solid #30363d; color:#8b949e;">👁 Profile views <b style="color:#58a6ff;">{{ views }}</b></span>
-        <a class="gh-link" style="font-family:'JetBrains Mono',monospace; font-size:12px; padding:5px 11px; border-radius:6px; background:#1f6feb; color:#fff;">✉ Email</a>
-        <a class="gh-link" style="font-family:'JetBrains Mono',monospace; font-size:12px; padding:5px 11px; border-radius:6px; background:#0a66c2; color:#fff;">in LinkedIn</a>
-        <span style="font-family:'JetBrains Mono',monospace; font-size:12px; padding:5px 11px; border-radius:6px; background:#161b22; border:1px solid #30363d; color:#c9d1d9;">📍 Jaipur, India</span>
-      </div>
-    </div>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=900&color=58A6FF&center=true&vCenter=true&width=720&height=46&lines=Building+with+Python+%E2%80%94+full-stack+%26+data;Flask+APIs+%C2%B7+ML+models+%C2%B7+clean+pipelines;Taught+1500%2B+developers+%26+data+scientists;Turning+raw+data+into+real+decisions)](https://git.io/typing-svg)
 
-    <!-- WHOAMI -->
-    <h2 style="margin:46px 0 16px; padding-bottom:8px; border-bottom:1px solid #21262d; font-family:'JetBrains Mono',monospace; font-size:20px; color:#fff;"><span style="color:#58a6ff;">~/</span> whoami</h2>
-    <div style="border:1px solid #30363d; border-radius:10px; overflow:hidden; background:#0d1117;">
-      <div style="display:flex; align-items:center; gap:7px; padding:9px 14px; background:#161b22; border-bottom:1px solid #21262d;">
-        <span style="width:11px;height:11px;border-radius:50%;background:#ff5f56;"></span>
-        <span style="width:11px;height:11px;border-radius:50%;background:#ffbd2e;"></span>
-        <span style="width:11px;height:11px;border-radius:50%;background:#27c93f;"></span>
-        <span style="margin-left:8px; font-family:'JetBrains Mono',monospace; font-size:11px; color:#8b949e;">deepratan.py</span>
-      </div>
-      <pre style="margin:0; padding:18px 20px; font-family:'JetBrains Mono',monospace; font-size:13.5px; line-height:1.7; color:#c9d1d9; overflow-x:auto;"><span style="color:#ff7b72;">class</span> <span style="color:#d2a8ff;">Deepratan</span>:
-    <span style="color:#ff7b72;">def</span> <span style="color:#d2a8ff;">__init__</span>(<span style="color:#ffa657;">self</span>):
-        <span style="color:#ffa657;">self</span>.role       = <span style="color:#a5d6ff;">"Data Scientist &amp; Corporate Trainer"</span>
-        <span style="color:#ffa657;">self</span>.experience = <span style="color:#a5d6ff;">"5+ years"</span>
-        <span style="color:#ffa657;">self</span>.focus      = [<span style="color:#a5d6ff;">"Full-stack Python"</span>, <span style="color:#a5d6ff;">"Data Science"</span>, <span style="color:#a5d6ff;">"ML / Gen-AI"</span>]
-        <span style="color:#ffa657;">self</span>.students   = <span style="color:#79c0ff;">1500</span>   <span style="color:#8b949e;"># and counting</span>
+<img src="https://komarev.com/ghpvc/?username=deepratankushwaha&label=Profile%20views&color=58a6ff&style=flat-square" alt="profile views" />
+&nbsp;
+<a href="mailto:deepratankushwah@gmail.com"><img src="https://img.shields.io/badge/Email-58a6ff?style=flat-square&logo=gmail&logoColor=white" alt="email"/></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/deepratankushwaha"><img src="https://img.shields.io/badge/LinkedIn-1f6feb?style=flat-square&logo=linkedin&logoColor=white" alt="linkedin"/></a>
+&nbsp;
+<img src="https://img.shields.io/badge/Jaipur,%20India-30363d?style=flat-square&logo=googlemaps&logoColor=58a6ff" alt="location"/>
 
-    <span style="color:#ff7b72;">def</span> <span style="color:#d2a8ff;">say_hi</span>(<span style="color:#ffa657;">self</span>):
-        <span style="color:#ff7b72;">return</span> <span style="color:#a5d6ff;">"Let's turn data into decisions. 🚀"</span></pre>
-    </div>
-
-    <!-- TECH STACK -->
-    <h2 style="margin:46px 0 16px; padding-bottom:8px; border-bottom:1px solid #21262d; font-family:'JetBrains Mono',monospace; font-size:20px; color:#fff;"><span style="color:#58a6ff;">~/</span> tech-stack</h2>
-    <sc-for list="{{ stackGroups }}" as="grp" hint-placeholder-count="3">
-      <div style="margin-bottom:16px;">
-        <div style="font-family:'JetBrains Mono',monospace; font-size:12px; color:#8b949e; margin-bottom:9px; text-transform:uppercase; letter-spacing:1px;">{{ grp.label }}</div>
-        <div style="display:flex; flex-wrap:wrap; gap:9px;">
-          <sc-for list="{{ grp.items }}" as="t" hint-placeholder-count="5">
-            <span style="display:inline-flex; align-items:center; gap:6px; font-family:'JetBrains Mono',monospace; font-size:13px; font-weight:600; padding:7px 13px; border-radius:8px; background:#161b22; border:1px solid #30363d; color:#c9d1d9; cursor:default; transition:transform .15s, border-color .15s, box-shadow .15s;" style-hover="transform:translateY(-3px); border-color:#58a6ff; box-shadow:0 6px 18px #58a6ff33; color:#fff;"><span style="width:8px;height:8px;border-radius:2px;background:{{ t.c }};"></span>{{ t.n }}</span>
-          </sc-for>
-        </div>
-      </div>
-    </sc-for>
-
-    <!-- PROFICIENCY -->
-    <h2 style="margin:46px 0 16px; padding-bottom:8px; border-bottom:1px solid #21262d; font-family:'JetBrains Mono',monospace; font-size:20px; color:#fff;"><span style="color:#58a6ff;">~/</span> proficiency</h2>
-    <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px 28px;">
-      <sc-for list="{{ skills }}" as="s" hint-placeholder-count="6">
-        <div>
-          <div style="display:flex; justify-content:space-between; font-family:'JetBrains Mono',monospace; font-size:13px; margin-bottom:6px;">
-            <span style="color:#c9d1d9;">{{ s.name }}</span>
-            <span style="color:#58a6ff; font-weight:700;">{{ s.shown }}%</span>
-          </div>
-          <div style="height:9px; border-radius:6px; background:#161b22; border:1px solid #21262d; overflow:hidden;">
-            <div style="height:100%; width:{{ s.fill }}%; border-radius:6px; background:linear-gradient(90deg,#1f6feb,#58a6ff); box-shadow:0 0 10px #58a6ff66; transition:width 1.1s cubic-bezier(.22,1,.36,1);"></div>
-          </div>
-        </div>
-      </sc-for>
-    </div>
-
-    <!-- GITHUB STATS -->
-    <h2 style="margin:46px 0 16px; padding-bottom:8px; border-bottom:1px solid #21262d; font-family:'JetBrains Mono',monospace; font-size:20px; color:#fff;"><span style="color:#58a6ff;">~/</span> github-stats</h2>
-    <div style="display:grid; grid-template-columns:1.15fr 1fr; gap:16px;">
-      <!-- stats card -->
-      <div style="border:1px solid #30363d; border-radius:10px; background:#0d1117; padding:20px 22px;">
-        <div style="font-family:'JetBrains Mono',monospace; font-size:15px; color:#58a6ff; font-weight:700; margin-bottom:16px;">Deepratan's GitHub Stats</div>
-        <div style="display:flex; gap:20px; align-items:center;">
-          <div style="flex:1; display:grid; gap:11px;">
-            <sc-for list="{{ stats }}" as="st" hint-placeholder-count="5">
-              <div style="display:flex; align-items:center; gap:9px; font-size:13.5px;">
-                <span style="width:18px; text-align:center;">{{ st.icon }}</span>
-                <span style="color:#c9d1d9; flex:1;">{{ st.label }}:</span>
-                <b style="color:#fff; font-family:'JetBrains Mono',monospace;">{{ st.shown }}</b>
-              </div>
-            </sc-for>
-          </div>
-          <div style="width:84px; height:84px; border-radius:50%; display:flex; align-items:center; justify-content:center; background:conic-gradient(#58a6ff {{ ringPct }}deg,#21262d 0); flex-shrink:0;">
-            <div style="width:64px;height:64px;border-radius:50%;background:#0d1117;display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono',monospace;font-size:22px;font-weight:800;color:#58a6ff;">A+</div>
-          </div>
-        </div>
-      </div>
-      <!-- top langs -->
-      <div style="border:1px solid #30363d; border-radius:10px; background:#0d1117; padding:20px 22px;">
-        <div style="font-family:'JetBrains Mono',monospace; font-size:15px; color:#58a6ff; font-weight:700; margin-bottom:16px;">Most Used Languages</div>
-        <div style="display:grid; gap:13px;">
-          <sc-for list="{{ langs }}" as="l" hint-placeholder-count="5">
-            <div>
-              <div style="display:flex; justify-content:space-between; font-size:12.5px; margin-bottom:5px;"><span style="color:#c9d1d9;">{{ l.name }}</span><span style="color:#8b949e; font-family:'JetBrains Mono',monospace;">{{ l.pct }}%</span></div>
-              <div style="height:8px; border-radius:5px; background:#161b22; overflow:hidden;"><div style="height:100%; width:{{ l.fill }}%; background:{{ l.c }}; border-radius:5px; transition:width 1.1s cubic-bezier(.22,1,.36,1);"></div></div>
-            </div>
-          </sc-for>
-        </div>
-      </div>
-    </div>
-
-    <!-- CONTRIBUTION GRAPH -->
-    <h2 style="margin:46px 0 16px; padding-bottom:8px; border-bottom:1px solid #21262d; font-family:'JetBrains Mono',monospace; font-size:20px; color:#fff;"><span style="color:#58a6ff;">~/</span> contribution-activity</h2>
-    <div style="border:1px solid #30363d; border-radius:10px; background:#0d1117; padding:22px; overflow-x:auto;">
-      <div style="display:flex; gap:3px; min-width:740px;">
-        <sc-for list="{{ weeks }}" as="wk" hint-placeholder-count="52">
-          <div style="display:flex; flex-direction:column; gap:3px;">
-            <sc-for list="{{ wk.days }}" as="d" hint-placeholder-count="7">
-              <div title="{{ d.title }}" style="width:11px; height:11px; border-radius:2px; background:{{ d.color }}; transition:transform .12s;" style-hover="transform:scale(1.5);"></div>
-            </sc-for>
-          </div>
-        </sc-for>
-      </div>
-      <div style="display:flex; align-items:center; gap:6px; justify-content:flex-end; margin-top:14px; font-family:'JetBrains Mono',monospace; font-size:11px; color:#8b949e;">
-        Less
-        <span style="width:11px;height:11px;border-radius:2px;background:#161b22;"></span>
-        <span style="width:11px;height:11px;border-radius:2px;background:#0d3a66;"></span>
-        <span style="width:11px;height:11px;border-radius:2px;background:#1f6feb;"></span>
-        <span style="width:11px;height:11px;border-radius:2px;background:#58a6ff;"></span>
-        <span style="width:11px;height:11px;border-radius:2px;background:#a5d6ff;"></span>
-        More
-      </div>
-    </div>
-
-    <!-- EXPERIENCE + EDUCATION -->
-    <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:46px;">
-      <div>
-        <h2 style="margin:0 0 16px; padding-bottom:8px; border-bottom:1px solid #21262d; font-family:'JetBrains Mono',monospace; font-size:20px; color:#fff;"><span style="color:#58a6ff;">~/</span> experience</h2>
-        <div style="border:1px solid #30363d; border-left:3px solid #58a6ff; border-radius:10px; background:#0d1117; padding:18px 20px;">
-          <div style="font-size:15px; font-weight:700; color:#fff;">Data Scientist &amp; Corporate Trainer</div>
-          <div style="font-size:13px; color:#58a6ff; margin:3px 0 2px;">GRRAS Solutions Pvt. Ltd · Jaipur</div>
-          <div style="font-family:'JetBrains Mono',monospace; font-size:11px; color:#8b949e; margin-bottom:12px;">Feb 2023 – Present · 5+ yrs experience</div>
-          <ul style="margin:0; padding-left:18px; font-size:13px; line-height:1.7; color:#c9d1d9;">
-            <li>Taught <b style="color:#58a6ff;">1500+</b> students Python, DBs, web dev &amp; data science.</li>
-            <li>Delivered corporate trainings &amp; industrial workshops across 6+ colleges.</li>
-            <li>Authored training manuals, modules &amp; instructional materials.</li>
-          </ul>
-        </div>
-      </div>
-      <div>
-        <h2 style="margin:0 0 16px; padding-bottom:8px; border-bottom:1px solid #21262d; font-family:'JetBrains Mono',monospace; font-size:20px; color:#fff;"><span style="color:#58a6ff;">~/</span> education</h2>
-        <div style="display:grid; gap:12px;">
-          <div style="border:1px solid #30363d; border-radius:10px; background:#0d1117; padding:16px 18px;">
-            <div style="font-size:14px; font-weight:700; color:#fff;">🎓 Master of Computer Application</div>
-            <div style="font-size:12.5px; color:#8b949e; margin-top:4px;">S.S. Jain Subodh P.G. College · RTU, Kota</div>
-          </div>
-          <div style="border:1px solid #30363d; border-radius:10px; background:#0d1117; padding:16px 18px;">
-            <div style="font-size:14px; font-weight:700; color:#fff;">🎓 Bachelor of Computer Application</div>
-            <div style="font-size:12.5px; color:#8b949e; margin-top:4px;">S.S. Jain Subodh P.G. College · Univ. of Rajasthan</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- ACHIEVEMENTS -->
-    <h2 style="margin:46px 0 16px; padding-bottom:8px; border-bottom:1px solid #21262d; font-family:'JetBrains Mono',monospace; font-size:20px; color:#fff;"><span style="color:#58a6ff;">~/</span> achievements</h2>
-    <div style="display:flex; flex-wrap:wrap; gap:11px;">
-      <sc-for list="{{ achievements }}" as="a" hint-placeholder-count="4">
-        <div style="display:flex; align-items:center; gap:10px; padding:12px 15px; border-radius:10px; background:#161b22; border:1px solid #30363d; transition:transform .15s, border-color .15s;" style-hover="transform:translateY(-3px); border-color:#58a6ff;">
-          <span style="font-size:18px;">{{ a.icon }}</span>
-          <div>
-            <div style="font-size:13px; font-weight:700; color:#fff;">{{ a.title }}</div>
-            <div style="font-size:11.5px; color:#8b949e;">{{ a.sub }}</div>
-          </div>
-        </div>
-      </sc-for>
-    </div>
-
-    <!-- CONNECT -->
-    <h2 style="margin:46px 0 16px; padding-bottom:8px; border-bottom:1px solid #21262d; font-family:'JetBrains Mono',monospace; font-size:20px; color:#fff;"><span style="color:#58a6ff;">~/</span> connect</h2>
-    <div style="display:flex; flex-wrap:wrap; gap:12px;">
-      <a class="gh-link" href="/cdn-cgi/l/email-protection#c3a7a6a6b3b1a2b7a2ada8b6b0abb4a2ab83a4aea2aaafeda0acae" style="flex:1; min-width:180px; text-align:center; padding:15px; border-radius:10px; background:#1f6feb; color:#fff; font-weight:700; font-family:'JetBrains Mono',monospace; font-size:14px;">✉ Email</a>
-      <a class="gh-link" href="https://www.linkedin.com/in/deepratankushwaha" style="flex:1; min-width:180px; text-align:center; padding:15px; border-radius:10px; background:#0a66c2; color:#fff; font-weight:700; font-family:'JetBrains Mono',monospace; font-size:14px;">in LinkedIn</a>
-      <a class="gh-link" href="tel:+919887410890" style="flex:1; min-width:180px; text-align:center; padding:15px; border-radius:10px; background:#161b22; border:1px solid #30363d; color:#c9d1d9; font-weight:700; font-family:'JetBrains Mono',monospace; font-size:14px;">📞 +91 98874 10890</a>
-    </div>
-
-    <div style="text-align:center; margin-top:40px; padding-top:22px; border-top:1px solid #21262d; font-family:'JetBrains Mono',monospace; font-size:12px; color:#8b949e;">
-      This is a live preview of <b style="color:#c9d1d9;">README.md</b> — the actual file (with GitHub widgets) is in your project, ready to paste.
-    </div>
-
-  </div>
 </div>
-</x-dc>
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:984,&quot;height&quot;:1400}}">
-class Component extends DCLogic {
-  state = { typed: "", animate: false, views: 0, statsShown: [0,0,0,0,0] };
 
-  fullPhrases = [
-    "Building with Python — full-stack & data",
-    "Flask APIs · ML models · clean pipelines",
-    "Taught 1500+ developers & data scientists",
-    "Turning raw data into real decisions",
-  ];
+<!-- ░░░░░░░░░░░░░░░░░░░░░░  ABOUT  ░░░░░░░░░░░░░░░░░░░░░░ -->
 
-  statTargets = [128, 47, 86, 1500, 23];
+## `~/ whoami`
 
-  componentDidMount() {
-    // typewriter
-    this._p = 0; this._c = 0; this._del = false;
-    this.type();
-    // animate bars after a beat
-    setTimeout(() => this.setState({ animate: true }), 250);
-    // count-up profile views + stats
-    this.countUp("views", 4217, 1400);
-    this.statTargets.forEach((t, i) => this.countUpStat(i, t, 1400));
-  }
-  componentWillUnmount() { clearTimeout(this._tt); }
+```python
+class Deepratan:
+    def __init__(self):
+        self.role        = "Data Scientist & Corporate Trainer"
+        self.experience  = "5+ years"
+        self.focus       = ["Full-stack Python", "Data Science", "ML / Gen-AI"]
+        self.location    = "Jaipur, India"
+        self.students    = 1500   # and counting
+        self.currently   = "Building data-driven apps & training the next batch of devs"
 
-  type() {
-    const phrase = this.fullPhrases[this._p];
-    if (!this._del) {
-      this._c++;
-      if (this._c > phrase.length) { this._del = true; this._tt = setTimeout(() => this.type(), 1300); return; }
-    } else {
-      this._c--;
-      if (this._c === 0) { this._del = false; this._p = (this._p + 1) % this.fullPhrases.length; }
-    }
-    this.setState({ typed: phrase.slice(0, this._c) });
-    this._tt = setTimeout(() => this.type(), this._del ? 35 : 65);
-  }
+    def say_hi(self):
+        return "Let's turn data into decisions. 🚀"
+```
 
-  countUp(key, target, dur) {
-    const start = performance.now();
-    const step = (now) => {
-      const p = Math.min(1, (now - start) / dur);
-      const e = 1 - Math.pow(1 - p, 3);
-      this.setState({ [key]: Math.round(target * e) });
-      if (p < 1) requestAnimationFrame(step);
-    };
-    requestAnimationFrame(step);
-  }
-  countUpStat(i, target, dur) {
-    const start = performance.now();
-    const step = (now) => {
-      const p = Math.min(1, (now - start) / dur);
-      const e = 1 - Math.pow(1 - p, 3);
-      this.setState(s => { const a = s.statsShown.slice(); a[i] = Math.round(target * e); return { statsShown: a }; });
-      if (p < 1) requestAnimationFrame(step);
-    };
-    requestAnimationFrame(step);
-  }
+> 5+ years shipping Python applications and teaching them too — from Flask web apps and REST APIs to data pipelines, ML models, and Gen-AI experiments. Equal parts **builder** and **mentor**.
 
-  buildWeeks() {
-    const colors = ["#161b22", "#0d3a66", "#1f6feb", "#58a6ff", "#a5d6ff"];
-    const weeks = [];
-    let seed = 7;
-    const rand = () => { seed = (seed * 9301 + 49297) % 233280; return seed / 233280; };
-    for (let w = 0; w < 52; w++) {
-      const days = [];
-      for (let d = 0; d < 7; d++) {
-        const r = rand();
-        // weight toward recent weeks being more active
-        const bias = w / 52;
-        let lvl = 0;
-        const v = r * (0.55 + bias * 0.7);
-        if (v > 0.78) lvl = 4; else if (v > 0.58) lvl = 3; else if (v > 0.38) lvl = 2; else if (v > 0.18) lvl = 1;
-        days.push({ color: colors[lvl], title: lvl + " contributions" });
-      }
-      weeks.push({ days });
-    }
-    return weeks;
-  }
+<!-- ░░░░░░░░░░░░░░░░░░░░░░  TECH STACK  ░░░░░░░░░░░░░░░░░░░░░░ -->
 
-  renderVals() {
-    const an = this.state.animate;
-    const skillDefs = [
-      { name: "Python & Scripting", pct: 95 },
-      { name: "Data Science / ML", pct: 82 },
-      { name: "Deep Learning / NN", pct: 78 },
-      { name: "RAG / LLM Pipelines", pct: 77 },
-      { name: "Web Dev (Flask/HTML)", pct: 88 },
-      { name: "Databases (SQL)", pct: 80 },
-      { name: "Teaching & Mentoring", pct: 99 },
-    ];
-    const skills = skillDefs.map(s => ({ name: s.name, fill: an ? s.pct : 0, shown: an ? s.pct : 0 }));
+## `~/ tech-stack`
 
-    const langDefs = [
-      { name: "Python", pct: 64, c: "#3572A5" },
-      { name: "HTML", pct: 14, c: "#e34c26" },
-      { name: "CSS", pct: 11, c: "#563d7c" },
-      { name: "Jupyter", pct: 7, c: "#DA5B0B" },
-      { name: "Shell", pct: 4, c: "#89e051" },
-    ];
-    const langs = langDefs.map(l => ({ ...l, fill: an ? l.pct : 0 }));
+<div align="center">
 
-    const statMeta = [
-      { icon: "⭐", label: "Total Stars Earned" },
-      { icon: "🔀", label: "Total PRs" },
-      { icon: "📝", label: "Total Commits (2026)" },
-      { icon: "👨‍🎓", label: "Students Taught" },
-      { icon: "📦", label: "Public Repos" },
-    ];
-    const stats = statMeta.map((m, i) => ({ ...m, shown: this.state.statsShown[i].toLocaleString() }));
+**Languages & Web**
 
-    const stackGroups = [
-      { label: "Languages & Web", items: [
-        { n: "Python", c: "#ffd43b" }, { n: "Flask", c: "#c9d1d9" }, { n: "HTML5", c: "#e34f26" },
-        { n: "CSS3", c: "#1572b6" }, { n: "Bootstrap", c: "#7952b3" },
-      ]},
-      { label: "Data Science, ML & AI", items: [
-        { n: "NumPy", c: "#4d77cf" }, { n: "Pandas", c: "#150458" }, { n: "Matplotlib", c: "#58a6ff" },
-        { n: "Seaborn", c: "#58a6ff" }, { n: "Machine Learning", c: "#f7931e" },
-        { n: "Deep Learning", c: "#ff6f00" }, { n: "Neural Networks", c: "#ee4c2c" }, { n: "RAG", c: "#10a37f" }, { n: "Gen-AI", c: "#10a37f" },
-      ]},
-      { label: "Databases & Tools", items: [
-        { n: "MySQL", c: "#00758f" }, { n: "SQLite", c: "#003b57" }, { n: "Git", c: "#f05032" },
-        { n: "REST API", c: "#58a6ff" }, { n: "PowerShell", c: "#5391fe" }, { n: "VS Code", c: "#007acc" }, { n: "PyCharm", c: "#21d789" },
-      ]},
-    ];
+![Python](https://img.shields.io/badge/Python-1f6feb?style=for-the-badge&logo=python&logoColor=ffd43b)
+![Flask](https://img.shields.io/badge/Flask-0d1117?style=for-the-badge&logo=flask&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-30363d?style=for-the-badge&logo=html5&logoColor=e34f26)
+![CSS3](https://img.shields.io/badge/CSS3-30363d?style=for-the-badge&logo=css3&logoColor=1572b6)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-30363d?style=for-the-badge&logo=bootstrap&logoColor=7952b3)
 
-    const achievements = [
-      { icon: "🏅", title: "Microsoft Technology Associate", sub: "Python Programming" },
-      { icon: "🟩", title: "HackerRank Certified", sub: "Python · Problem Solving" },
-      { icon: "📊", title: "Data Analysis with Python", sub: "Patterns & insights from data" },
-      { icon: "🐍", title: "Python for Data Science", sub: "Core DS concepts" },
-    ];
+**Data Science & ML**
 
-    return {
-      typed: this.state.typed,
-      views: this.state.views.toLocaleString(),
-      skills, langs, stats, stackGroups, achievements,
-      weeks: this.buildWeeks(),
-      ringPct: an ? 320 : 0,
-    };
-  }
-}
-</script>
-</body>
-</html>
+![NumPy](https://img.shields.io/badge/NumPy-1f6feb?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-0d1117?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-30363d?style=for-the-badge&logo=python&logoColor=58a6ff)
+![Seaborn](https://img.shields.io/badge/Seaborn-30363d?style=for-the-badge&logo=python&logoColor=58a6ff)
+![scikit-learn](https://img.shields.io/badge/Machine%20Learning-1f6feb?style=for-the-badge&logo=scikitlearn&logoColor=f7931e)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-0d1117?style=for-the-badge&logo=tensorflow&logoColor=ff6f00)
+![Neural Networks](https://img.shields.io/badge/Neural%20Networks-30363d?style=for-the-badge&logo=pytorch&logoColor=ee4c2c)
+![RAG](https://img.shields.io/badge/RAG-1f6feb?style=for-the-badge&logo=langchain&logoColor=white)
+![Gen-AI](https://img.shields.io/badge/Gen--AI-0d1117?style=for-the-badge&logo=openai&logoColor=white)
+
+**Databases & Tools**
+
+![MySQL](https://img.shields.io/badge/MySQL-1f6feb?style=for-the-badge&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-30363d?style=for-the-badge&logo=sqlite&logoColor=003b57)
+![Git](https://img.shields.io/badge/Git-30363d?style=for-the-badge&logo=git&logoColor=f05032)
+![REST API](https://img.shields.io/badge/REST%20API-30363d?style=for-the-badge&logo=fastapi&logoColor=58a6ff)
+![PowerShell](https://img.shields.io/badge/PowerShell-0d1117?style=for-the-badge&logo=powershell&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-30363d?style=for-the-badge&logo=visualstudiocode&logoColor=007acc)
+
+<br/>
+
+<img src="https://skillicons.dev/icons?i=python,flask,html,css,bootstrap,tensorflow,pytorch,mysql,sqlite,git,vscode,pycharm&theme=dark&perline=12" alt="skill icons"/>
+
+</div>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░  PROFICIENCY BARS  ░░░░░░░░░░░░░░░░░░░░░░ -->
+
+## `~/ proficiency`
+
+```text
+Python & Scripting   ███████████████████░  95%
+Data Science / ML    ████████████████░░░░  82%
+Deep Learning / NN   ███████████████░░░░░  78%
+RAG / LLM Pipelines  ███████████████░░░░░  77%
+Web Dev (Flask/HTML) █████████████████░░░  88%
+Databases (SQL)      ████████████████░░░░  80%
+Teaching & Mentoring █████████████████████ 99%
+```
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░  GITHUB STATS  ░░░░░░░░░░░░░░░░░░░░░░ -->
+
+## `~/ github-stats`
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=deepratankushwaha&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" alt="github stats" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=deepratankushwaha&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="top languages" />
+
+<br/><br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=deepratankushwaha&hide_border=true&background=0D1117&stroke=30363D&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="streak stats" />
+
+</div>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░  CONTRIBUTION GRAPH  ░░░░░░░░░░░░░░░░░░░░░░ -->
+
+## `~/ contribution-activity`
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=deepratankushwaha&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&area_color=1f6feb&hide_border=true)](https://github.com/deepratankushwaha)
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░  TROPHIES  ░░░░░░░░░░░░░░░░░░░░░░ -->
+
+## `~/ trophies`
+
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=deepratankushwaha&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░  EXPERIENCE & EDUCATION  ░░░░░░░░░░░░░░░░░░░░░░ -->
+
+## `~/ experience`
+
+**🧪 Data Scientist & Corporate Trainer** — *GRRAS Solutions Pvt. Ltd, Jaipur*
+`Feb 2023 – Present`
+
+- 👨‍🏫 Taught **1500+ students** Python, databases, web development, data analysis & data science.
+- 🏢 Delivered **corporate trainings** on Python & web development, plus industrial workshops on Python, Data Science & ML across colleges (Arya, JEC, GIT, VGU, Poornima, Geetanjali-Udaipur).
+- 📚 Built training manuals, modules and instructional materials for software developers & data scientists.
+- 🤝 Partnered with engineers & leadership to spot training opportunities and optimize performance.
+
+## `~/ education`
+
+- 🎓 **Master of Computer Application** — *Rajasthan Technical University, Kota*
+- 🎓 **Bachelor of Computer Application** — *University of Rajasthan, Jaipur*
+
+## `~/ achievements`
+
+![MTA](https://img.shields.io/badge/Microsoft%20Technology%20Associate-Python%20Programming-1f6feb?style=flat-square&logo=microsoft&logoColor=white)
+![HackerRank](https://img.shields.io/badge/HackerRank-Python%20Certified-0d1117?style=flat-square&logo=hackerrank&logoColor=2ec866)
+![DataAnalysis](https://img.shields.io/badge/Certified-Data%20Analysis%20with%20Python-30363d?style=flat-square&logo=python&logoColor=ffd43b)
+![DataScience](https://img.shields.io/badge/Certified-Python%20for%20Data%20Science-30363d?style=flat-square&logo=python&logoColor=ffd43b)
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░  CONNECT  ░░░░░░░░░░░░░░░░░░░░░░ -->
+
+## `~/ connect`
+
+<div align="center">
+
+<a href="mailto:deepratankushwah@gmail.com"><img src="https://img.shields.io/badge/Gmail-1f6feb?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail"/></a>
+<a href="https://www.linkedin.com/in/deepratankushwaha"><img src="https://img.shields.io/badge/LinkedIn-58a6ff?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/></a>
+<a href="tel:+919887410890"><img src="https://img.shields.io/badge/+91%2098874%2010890-30363d?style=for-the-badge&logo=whatsapp&logoColor=25d366" alt="phone"/></a>
+
+<br/><br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,50:1f6feb,100:0d1117&height=120&section=footer" alt="footer"/>
+
+</div>
