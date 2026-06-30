@@ -1,3 +1,14 @@
+<!--
+  ═══════════════════════════════════════════════════════════════════
+  Deepratan Kushwaha · Profile README
+  Username is already wired correctly: DeepratanKushwaha
+  All widgets are free third-party services — no setup needed.
+  (Optional: replace the LinkedIn slug if yours differs.)
+  ═══════════════════════════════════════════════════════════════════
+-->
+
+<!-- ░░░░░░░░  HEADER  ░░░░░░░░ -->
+
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:1f6feb,100:58a6ff&height=210&section=header&text=Deepratan%20Kushwaha&fontColor=ffffff&fontSize=54&fontAlignY=36&desc=Data%20Scientist%20%C2%B7%20Python%20Full-Stack%20Developer%20%C2%B7%20Corporate%20Trainer&descSize=18&descAlignY=58&descColor=e6edf3" alt="header"/>
 
 <div align="center">
@@ -10,6 +21,8 @@
 <a href="mailto:deepratankushwah@gmail.com"><img src="https://img.shields.io/badge/Email-Say+hi-58a6ff?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" alt="email"/></a>
 
 </div>
+
+<!-- ░░░░░░░░  ABOUT  ░░░░░░░░ -->
 
 ## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> &nbsp;`~/ whoami`
 
@@ -32,8 +45,6 @@ class Deepratan:
 ```
 
 </td>
-</tr>
-<tr>
 <td width="42%" valign="top">
 
 - 🔭 &nbsp;**Data Scientist & Corporate Trainer** with **5+ years** of Python
@@ -46,6 +57,8 @@ class Deepratan:
 </td>
 </tr>
 </table>
+
+<!-- ░░░░░░░░  TECH STACK  ░░░░░░░░ -->
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> &nbsp;`~/ tech-stack`
 
@@ -80,39 +93,47 @@ class Deepratan:
 
 </div>
 
+<!-- ░░░░░░░░  GITHUB STATS  ░░░░░░░░ -->
+
 ## <img src="https://media.giphy.com/media/W5eoZHPpUx9sbItc7d/giphy.gif" width="28"> &nbsp;`~/ github-stats`
 
 <div align="center">
 
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=DeepratanKushwaha&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" alt="github stats" />
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DeepratanKushwaha&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="top languages" />
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=DeepratanKushwaha&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="github stats" />
+<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DeepratanKushwaha&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=c9d1d9" alt="top languages" />
 
 <br/><br/>
 
-<img width="80%" src="https://github-readme-activity-graph.vercel.app/graph?username=DeepratanKushwaha&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&area_color=1f6feb&hide_border=true&custom_title=Contribution%20Activity" alt="activity graph" />
+<img width="80%" src="https://github-readme-activity-graph.vercel.app/graph?username=DeepratanKushwaha&bg_color=00000000&color=58a6ff&line=58a6ff&point=ffffff&area=true&area_color=1f6feb&title_color=58a6ff&hide_border=true&custom_title=Contribution%20Activity" alt="activity graph" />
 
 <br/>
 
+<img src="https://github-profile-trophy.vercel.app/?username=DeepratanKushwaha&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="trophies" />
+
 </div>
+
+<!-- ░░░░░░░░  FEATURED PROJECTS  ░░░░░░░░ -->
 
 ## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="26"> &nbsp;`~/ featured-projects`
 
 <div align="center">
 
 <a href="https://github.com/DeepratanKushwaha/Car-Price-Prediction">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DeepratanKushwaha&repo=Car-Price-Prediction&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" alt="Car Price Prediction"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DeepratanKushwaha&repo=Car-Price-Prediction&hide_border=true&bg_color=00000000&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="Car Price Prediction"/>
 </a>
 <a href="https://github.com/DeepratanKushwaha/Student_Management_System">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DeepratanKushwaha&repo=Student_Management_System&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" alt="Student Management System"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DeepratanKushwaha&repo=Student_Management_System&hide_border=true&bg_color=00000000&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="Student Management System"/>
 </a>
 <a href="https://github.com/DeepratanKushwaha/EDA-libreries">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DeepratanKushwaha&repo=EDA-libreries&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" alt="EDA Libraries"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DeepratanKushwaha&repo=EDA-libreries&hide_border=true&bg_color=00000000&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="EDA Libraries"/>
 </a>
 <a href="https://github.com/DeepratanKushwaha/Python">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DeepratanKushwaha&repo=Python&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" alt="Python"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DeepratanKushwaha&repo=Python&hide_border=true&bg_color=00000000&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="Python"/>
 </a>
 
 </div>
+
+<!-- ░░░░░░░░  EXPERIENCE & EDUCATION  ░░░░░░░░ -->
 
 ## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="26"> &nbsp;`~/ experience`
 
@@ -151,6 +172,8 @@ class Deepratan:
 </tr>
 </table>
 
+<!-- ░░░░░░░░  CONNECT  ░░░░░░░░ -->
+
 ## <img src="https://media.giphy.com/media/LMcB8XospGZO8UQq87/giphy.gif" width="26"> &nbsp;`~/ connect`
 
 <div align="center">
@@ -162,7 +185,7 @@ class Deepratan:
 
 <br/><br/>
 
-<i>💡 "Let's turn data into decisions."</i>
+<i>💡 “Let's turn data into decisions.”</i>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,60:1f6feb,100:0d1117&height=120&section=footer" alt="footer"/>
 
