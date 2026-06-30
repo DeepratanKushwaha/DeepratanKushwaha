@@ -1,65 +1,58 @@
 <!--
-  ════════════════════════════════════════════════════════════════════
-  BEFORE YOU PASTE THIS INTO GITHUB:
-  1. Create a repo named EXACTLY your username (e.g. "deepratankushwaha"),
-     add this file as its README.md — it then shows on your profile.
-  2. FIND & REPLACE the placeholder handle "deepratankushwaha" with your
-     real GitHub username everywhere in this file (the stats / streak /
-     activity / trophy widgets need it to pull YOUR data).
-  3. Replace social links (LinkedIn URL) with your own.
-  All widgets are free third-party services — no setup needed.
-  ════════════════════════════════════════════════════════════════════
+  Deepratan Kushwaha · Profile README
+  Username wired correctly: DeepratanKushwaha
 -->
 
-<!-- ░░░░░░░░░░░░░░░░░░░░░░  HEADER BANNER  ░░░░░░░░░░░░░░░░░░░░░░ -->
-
-<a href="https://github.com/deepratankushwaha">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=200&section=header&text=Deepratan%20Kushwaha&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=Data%20Scientist%20%C2%B7%20Python%20Full-Stack%20Developer%20%C2%B7%20Corporate%20Trainer&descSize=18&descAlignY=60&descColor=c9d1d9" alt="header"/>
-</a>
-
-<!-- ░░░░░░░░░░░░░░░░░░░░░░  TYPING INTRO  ░░░░░░░░░░░░░░░░░░░░░░ -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:1f6feb,100:58a6ff&height=210&section=header&text=Deepratan%20Kushwaha&fontColor=ffffff&fontSize=54&fontAlignY=36&desc=Data%20Scientist%20%C2%B7%20Python%20Full-Stack%20Developer%20%C2%B7%20Corporate%20Trainer&descSize=18&descAlignY=58&descColor=e6edf3" alt="header"/>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=900&color=58A6FF&center=true&vCenter=true&width=720&height=46&lines=Building+with+Python+%E2%80%94+full-stack+%26+data;Flask+APIs+%C2%B7+ML+models+%C2%B7+clean+pipelines;Taught+1500%2B+developers+%26+data+scientists;Turning+raw+data+into+real+decisions)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=23&pause=900&color=58A6FF&center=true&vCenter=true&width=760&height=44&lines=Building+with+Python+%E2%80%94+full-stack+%26+data;Flask+APIs+%C2%B7+ML+models+%C2%B7+RAG+pipelines;Deep+Learning+%26+Neural+Networks;Taught+1500%2B+developers+%26+data+scientists)](https://git.io/typing-svg)
 
-<img src="https://komarev.com/ghpvc/?username=deepratankushwaha&label=Profile%20views&color=58a6ff&style=flat-square" alt="profile views" />
-&nbsp;
-<a href="mailto:deepratankushwah@gmail.com"><img src="https://img.shields.io/badge/Email-58a6ff?style=flat-square&logo=gmail&logoColor=white" alt="email"/></a>
-&nbsp;
-<a href="https://www.linkedin.com/in/deepratankushwaha"><img src="https://img.shields.io/badge/LinkedIn-1f6feb?style=flat-square&logo=linkedin&logoColor=white" alt="linkedin"/></a>
-&nbsp;
-<img src="https://img.shields.io/badge/Jaipur,%20India-30363d?style=flat-square&logo=googlemaps&logoColor=58a6ff" alt="location"/>
+<a href="https://github.com/DeepratanKushwaha?tab=followers"><img src="https://img.shields.io/github/followers/DeepratanKushwaha?label=Followers&style=for-the-badge&color=1f6feb&labelColor=0d1117&logo=github" alt="followers"/></a>
+<img src="https://komarev.com/ghpvc/?username=DeepratanKushwaha&label=Profile+views&color=1f6feb&style=for-the-badge" alt="views"/>
+<a href="https://www.linkedin.com/in/deepratankushwaha"><img src="https://img.shields.io/badge/LinkedIn-Connect-58a6ff?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" alt="linkedin"/></a>
+<a href="mailto:deepratankushwah@gmail.com"><img src="https://img.shields.io/badge/Email-Say+hi-58a6ff?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" alt="email"/></a>
 
 </div>
 
-<!-- ░░░░░░░░░░░░░░░░░░░░░░  ABOUT  ░░░░░░░░░░░░░░░░░░░░░░ -->
+## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> &nbsp;`~/ whoami`
 
-## `~/ whoami`
+<table>
+<tr>
+<td width="58%" valign="top">
 
 ```python
 class Deepratan:
     def __init__(self):
-        self.role        = "Data Scientist & Corporate Trainer"
-        self.experience  = "5+ years"
-        self.focus       = ["Full-stack Python", "Data Science", "ML / Gen-AI"]
-        self.location    = "Jaipur, India"
-        self.students    = 1500   # and counting
-        self.currently   = "Building data-driven apps & training the next batch of devs"
+        self.role       = "Data Scientist & Trainer"
+        self.experience = "5+ years"
+        self.stack      = ["Python", "Flask",
+                           "ML / DL", "RAG", "SQL"]
+        self.location   = "Jaipur, India"
+        self.students   = 1500   # and counting
 
-    def say_hi(self):
-        return "Let's turn data into decisions. 🚀"
+    def mission(self):
+        return "Turn data into decisions. 🚀"
 ```
 
-> 5+ years shipping Python applications and teaching them too — from Flask web apps and REST APIs to data pipelines, ML models, and Gen-AI experiments. Equal parts **builder** and **mentor**.
+</td>
+<td width="42%" valign="top">
 
-<!-- ░░░░░░░░░░░░░░░░░░░░░░  TECH STACK  ░░░░░░░░░░░░░░░░░░░░░░ -->
+- 🔭 &nbsp;**Data Scientist & Corporate Trainer** with **5+ years** of Python
+- 🧠 &nbsp;Working across **ML, Deep Learning, Neural Networks & RAG**
+- 🛠️ &nbsp;Building **Flask** apps, **REST APIs** & clean data pipelines
+- 👨‍🏫 &nbsp;Trained **1500+** developers & data scientists
+- 📍 &nbsp;Based in **Jaipur, India**
+- 💬 &nbsp;Ask me about **Python, Data Science & Gen-AI**
 
-## `~/ tech-stack`
+</td>
+</tr>
+</table>
+
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> &nbsp;`~/ tech-stack`
 
 <div align="center">
-
-**Languages & Web**
 
 ![Python](https://img.shields.io/badge/Python-1f6feb?style=for-the-badge&logo=python&logoColor=ffd43b)
 ![Flask](https://img.shields.io/badge/Flask-0d1117?style=for-the-badge&logo=flask&logoColor=white)
@@ -67,25 +60,21 @@ class Deepratan:
 ![CSS3](https://img.shields.io/badge/CSS3-30363d?style=for-the-badge&logo=css3&logoColor=1572b6)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-30363d?style=for-the-badge&logo=bootstrap&logoColor=7952b3)
 
-**Data Science & ML**
-
 ![NumPy](https://img.shields.io/badge/NumPy-1f6feb?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-0d1117?style=for-the-badge&logo=pandas&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-30363d?style=for-the-badge&logo=python&logoColor=58a6ff)
 ![Seaborn](https://img.shields.io/badge/Seaborn-30363d?style=for-the-badge&logo=python&logoColor=58a6ff)
-![scikit-learn](https://img.shields.io/badge/Machine%20Learning-1f6feb?style=for-the-badge&logo=scikitlearn&logoColor=f7931e)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1f6feb?style=for-the-badge&logo=scikitlearn&logoColor=f7931e)
+
 ![Deep Learning](https://img.shields.io/badge/Deep%20Learning-0d1117?style=for-the-badge&logo=tensorflow&logoColor=ff6f00)
 ![Neural Networks](https://img.shields.io/badge/Neural%20Networks-30363d?style=for-the-badge&logo=pytorch&logoColor=ee4c2c)
 ![RAG](https://img.shields.io/badge/RAG-1f6feb?style=for-the-badge&logo=langchain&logoColor=white)
 ![Gen-AI](https://img.shields.io/badge/Gen--AI-0d1117?style=for-the-badge&logo=openai&logoColor=white)
 
-**Databases & Tools**
-
 ![MySQL](https://img.shields.io/badge/MySQL-1f6feb?style=for-the-badge&logo=mysql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-30363d?style=for-the-badge&logo=sqlite&logoColor=003b57)
 ![Git](https://img.shields.io/badge/Git-30363d?style=for-the-badge&logo=git&logoColor=f05032)
 ![REST API](https://img.shields.io/badge/REST%20API-30363d?style=for-the-badge&logo=fastapi&logoColor=58a6ff)
-![PowerShell](https://img.shields.io/badge/PowerShell-0d1117?style=for-the-badge&logo=powershell&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-30363d?style=for-the-badge&logo=visualstudiocode&logoColor=007acc)
 
 <br/>
@@ -94,87 +83,92 @@ class Deepratan:
 
 </div>
 
-<!-- ░░░░░░░░░░░░░░░░░░░░░░  PROFICIENCY BARS  ░░░░░░░░░░░░░░░░░░░░░░ -->
-
-## `~/ proficiency`
-
-```text
-Python & Scripting   ███████████████████░  95%
-Data Science / ML    ████████████████░░░░  82%
-Deep Learning / NN   ███████████████░░░░░  78%
-RAG / LLM Pipelines  ███████████████░░░░░  77%
-Web Dev (Flask/HTML) █████████████████░░░  88%
-Databases (SQL)      ████████████████░░░░  80%
-Teaching & Mentoring █████████████████████ 99%
-```
-
-<!-- ░░░░░░░░░░░░░░░░░░░░░░  GITHUB STATS  ░░░░░░░░░░░░░░░░░░░░░░ -->
-
-## `~/ github-stats`
+## <img src="https://media.giphy.com/media/W5eoZHPpUx9sbItc7d/giphy.gif" width="28"> &nbsp;`~/ github-stats`
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=deepratankushwaha&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" alt="github stats" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=deepratankushwaha&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="top languages" />
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=DeepratanKushwaha&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" alt="github stats" />
+<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DeepratanKushwaha&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="top languages" />
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=deepratankushwaha&hide_border=true&background=0D1117&stroke=30363D&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="streak stats" />
+<img width="80%" src="https://github-readme-activity-graph.vercel.app/graph?username=DeepratanKushwaha&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&area_color=1f6feb&hide_border=true&custom_title=Contribution%20Activity" alt="activity graph" />
+
+<br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=DeepratanKushwaha&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="trophies" />
 
 </div>
 
-<!-- ░░░░░░░░░░░░░░░░░░░░░░  CONTRIBUTION GRAPH  ░░░░░░░░░░░░░░░░░░░░░░ -->
-
-## `~/ contribution-activity`
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=deepratankushwaha&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&area_color=1f6feb&hide_border=true)](https://github.com/deepratankushwaha)
-
-<!-- ░░░░░░░░░░░░░░░░░░░░░░  TROPHIES  ░░░░░░░░░░░░░░░░░░░░░░ -->
-
-## `~/ trophies`
+## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="26"> &nbsp;`~/ featured-projects`
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=deepratankushwaha&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8)](https://github.com/ryo-ma/github-profile-trophy)
+<a href="https://github.com/DeepratanKushwaha/Car-Price-Prediction">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DeepratanKushwaha&repo=Car-Price-Prediction&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" alt="Car Price Prediction"/>
+</a>
+<a href="https://github.com/DeepratanKushwaha/Student_Management_System">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DeepratanKushwaha&repo=Student_Management_System&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" alt="Student Management System"/>
+</a>
+<a href="https://github.com/DeepratanKushwaha/EDA-libreries">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DeepratanKushwaha&repo=EDA-libreries&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" alt="EDA Libraries"/>
+</a>
+<a href="https://github.com/DeepratanKushwaha/Python">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DeepratanKushwaha&repo=Python&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" alt="Python"/>
+</a>
 
 </div>
 
-<!-- ░░░░░░░░░░░░░░░░░░░░░░  EXPERIENCE & EDUCATION  ░░░░░░░░░░░░░░░░░░░░░░ -->
+## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="26"> &nbsp;`~/ experience`
 
-## `~/ experience`
+> ### 🧪 &nbsp;Data Scientist & Corporate Trainer — *GRRAS Solutions Pvt. Ltd, Jaipur*
+> `Feb 2023 – Present`
+>
+> - 👨‍🏫 Taught **1500+ students** Python, databases, web development & data science.
+> - 🏢 Delivered **corporate trainings** + industrial workshops across **6+ colleges** (Arya, JEC, GIT, VGU, Poornima, Geetanjali-Udaipur).
+> - 📚 Authored training manuals, modules & instructional materials.
+> - 🤝 Partnered with engineers & leadership to optimize training & performance.
 
-**🧪 Data Scientist & Corporate Trainer** — *GRRAS Solutions Pvt. Ltd, Jaipur*
-`Feb 2023 – Present`
+## <img src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif" width="26"> &nbsp;`~/ education & certs`
 
-- 👨‍🏫 Taught **1500+ students** Python, databases, web development, data analysis & data science.
-- 🏢 Delivered **corporate trainings** on Python & web development, plus industrial workshops on Python, Data Science & ML across colleges (Arya, JEC, GIT, VGU, Poornima, Geetanjali-Udaipur).
-- 📚 Built training manuals, modules and instructional materials for software developers & data scientists.
-- 🤝 Partnered with engineers & leadership to spot training opportunities and optimize performance.
+<table>
+<tr>
+<td valign="top" width="50%">
 
-## `~/ education`
+**🎓 Education**
 
-- 🎓 **Master of Computer Application** — *Rajasthan Technical University, Kota*
-- 🎓 **Bachelor of Computer Application** — *University of Rajasthan, Jaipur*
+- **MCA** — Master of Computer Application
+  <br/><sub>Rajasthan Technical University, Kota</sub>
+- **BCA** — Bachelor of Computer Application
+  <br/><sub>University of Rajasthan, Jaipur</sub>
 
-## `~/ achievements`
+</td>
+<td valign="top" width="50%">
 
-![MTA](https://img.shields.io/badge/Microsoft%20Technology%20Associate-Python%20Programming-1f6feb?style=flat-square&logo=microsoft&logoColor=white)
-![HackerRank](https://img.shields.io/badge/HackerRank-Python%20Certified-0d1117?style=flat-square&logo=hackerrank&logoColor=2ec866)
-![DataAnalysis](https://img.shields.io/badge/Certified-Data%20Analysis%20with%20Python-30363d?style=flat-square&logo=python&logoColor=ffd43b)
-![DataScience](https://img.shields.io/badge/Certified-Python%20for%20Data%20Science-30363d?style=flat-square&logo=python&logoColor=ffd43b)
+**🏅 Certifications**
 
-<!-- ░░░░░░░░░░░░░░░░░░░░░░  CONNECT  ░░░░░░░░░░░░░░░░░░░░░░ -->
+- Microsoft Technology Associate — *Python*
+- HackerRank — *Python (Certified)*
+- Data Analysis with Python
+- Python for Data Science
 
-## `~/ connect`
+</td>
+</tr>
+</table>
+
+## <img src="https://media.giphy.com/media/LMcB8XospGZO8UQq87/giphy.gif" width="26"> &nbsp;`~/ connect`
 
 <div align="center">
 
+<a href="https://www.linkedin.com/in/deepratankushwaha"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/></a>
 <a href="mailto:deepratankushwah@gmail.com"><img src="https://img.shields.io/badge/Gmail-1f6feb?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail"/></a>
-<a href="https://www.linkedin.com/in/deepratankushwaha"><img src="https://img.shields.io/badge/LinkedIn-58a6ff?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/></a>
-<a href="tel:+919887410890"><img src="https://img.shields.io/badge/+91%2098874%2010890-30363d?style=for-the-badge&logo=whatsapp&logoColor=25d366" alt="phone"/></a>
+<a href="tel:+919887410890"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="whatsapp"/></a>
+<a href="https://github.com/DeepratanKushwaha"><img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white" alt="github"/></a>
 
 <br/><br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,50:1f6feb,100:0d1117&height=120&section=footer" alt="footer"/>
+<i>💡 "Let's turn data into decisions."</i>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,60:1f6feb,100:0d1117&height=120&section=footer" alt="footer"/>
 
 </div>
