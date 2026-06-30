@@ -96,7 +96,6 @@ class Deepratan:
 
 <br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=DeepratanKushwaha&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="trophies" />
 
 </div>
 
@@ -122,7 +121,7 @@ class Deepratan:
 ## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="26"> &nbsp;`~/ experience`
 
 > ### 🧪 &nbsp;Data Scientist & Corporate Trainer — *GRRAS Solutions Pvt. Ltd, Jaipur*
-> `Feb 2023 – Present`
+> `Feb 2020 – Present`
 >
 > - 👨‍🏫 Taught **1500+ students** Python, databases, web development & data science.
 > - 🏢 Delivered **corporate trainings** + industrial workshops across **6+ colleges** (Arya, JEC, GIT, VGU, Poornima, Geetanjali-Udaipur).
